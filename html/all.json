@@ -1,0 +1,109 @@
+{
+    "mario":[
+        {
+            "img":"../images/supermario01.png",
+            "title":"FLYING MARIO",
+            "bg":"radial-gradient( circle 929px at 0.6% 1.3%,  rgba(248,251,10,1) 0%, rgba(248,47,47,1) 82.6% )",
+            "desc":"For the past 35 years, Mario has been running, jumping, and saving the Mushroom Kingdom from bad guys, and he couldn’t have done it without you. Thank you for always being there to help Mario on his incredible adventures.",
+            "link":"https://mario.nintendo.com/"
+        },
+        {
+            "img":"../images/supermario02.png",
+            "title":"CAT MARIO",
+            "bg":"linear-gradient( 108.7deg,  rgba(34,219,231,1) -0.9%, rgba(52,118,246,1) 88.7% )",
+            "desc":"For the past 35 years, Mario has been running, jumping, and saving the Mushroom Kingdom from bad guys, and he couldn’t have done it without you. Thank you for always being there to help Mario on his incredible adventures.",
+            "link":"https://mario.nintendo.com/"
+        },
+        {
+            "img":"../images/supermario03.png",
+            "title":"FIREBALL MARIO",
+            "bg":"linear-gradient( 110.6deg,  rgba(179,157,219,1) 7%, rgba(150,159,222,1) 47.7%, rgba(24,255,255,1) 100.6% )",
+            "desc":"For the past 35 years, Mario has been running, jumping, and saving the Mushroom Kingdom from bad guys, and he couldn’t have done it without you. Thank you for always being there to help Mario on his incredible adventures.",
+            "link":"https://mario.nintendo.com/"
+        },
+        {
+            "img":"../images/supermario04.png",
+            "title":"RUNNING MARIO",
+            "bg":"linear-gradient( 112.4deg,  rgba(169,28,115,1) 21.6%, rgba(219,112,54,1) 92.2% )",
+            "desc":"For the past 35 years, Mario has been running, jumping, and saving the Mushroom Kingdom from bad guys, and he couldn’t have done it without you. Thank you for always being there to help Mario on his incredible adventures.",
+            "link":"https://mario.nintendo.com/"
+        },
+        {
+            "img":"../images/supermario05.png",
+            "title":"RACOON MARIO",
+            "bg":"radial-gradient( circle farthest-corner at -0.1% 100.8%,  rgba(0,234,255,1) 0.2%, rgba(0,124,255,1) 59.1%, rgba(198,0,255,1) 100.2% )",
+            "desc":"For the past 35 years, Mario has been running, jumping, and saving the Mushroom Kingdom from bad guys, and he couldn’t have done it without you. Thank you for always being there to help Mario on his incredible adventures.",
+            "link":"https://mario.nintendo.com/"
+        },
+        {
+            "img":"../images/supermario06.png",
+            "title":"CART MARIO",
+            "bg":"linear-gradient( 110.4deg,  rgba(255,196,254,1) 9.6%, rgba(251,229,123,1) 91% )",
+            "desc":"For the past 35 years, Mario has been running, jumping, and saving the Mushroom Kingdom from bad guys, and he couldn’t have done it without you. Thank you for always being there to help Mario on his incredible adventures.",
+            "link":"https://mario.nintendo.com/"
+        },
+        {
+            "img":"../images/supermario07.png",
+            "title":"CART MARIO",
+            "bg":"radial-gradient( circle farthest-corner at 10% 20%,  rgba(253,101,133,1) 0%, rgba(255,211,165,1) 90% )",
+            "desc":"For the past 35 years, Mario has been running, jumping, and saving the Mushroom Kingdom from bad guys, and he couldn’t have done it without you. Thank you for always being there to help Mario on his incredible adventures.",
+            "link":"https://mario.nintendo.com/"
+        },
+        {
+            "img":"../images/supermario08.png",
+            "title":"CART MARIO",
+            "bg":"radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,52,89,1) 0%, rgba(0,168,232,1) 90% )",
+            "desc":"For the past 35 years, Mario has been running, jumping, and saving the Mushroom Kingdom from bad guys, and he couldn’t have done it without you. Thank you for always being there to help Mario on his incredible adventures.",
+            "link":"https://mario.nintendo.com/"
+        },
+        {
+            "img":"../images/monster01.png",
+            "title":"FLYING MARIO",
+            "bg":"radial-gradient( circle 929px at 0.6% 1.3%,  rgba(248,251,10,1) 0%, rgba(248,47,47,1) 82.6% )",
+            "desc":"For the past 35 years, Mario has been running, jumping, and saving the Mushroom Kingdom from bad guys, and he couldn’t have done it without you. Thank you for always being there to help Mario on his incredible adventures.",
+            "link":"https://mario.nintendo.com/"
+        },
+        {
+            "img":"../images/monster02.png",
+            "title":"CAT MARIO",
+            "bg":"linear-gradient( 108.7deg,  rgba(34,219,231,1) -0.9%, rgba(52,118,246,1) 88.7% )",
+            "desc":"For the past 35 years, Mario has been running, jumping, and saving the Mushroom Kingdom from bad guys, and he couldn’t have done it without you. Thank you for always being there to help Mario on his incredible adventures.",
+            "link":"https://mario.nintendo.com/"
+        },
+        {
+            "img":"../images/monster03.png",
+            "title":"FIREBALL MARIO",
+            "bg":"linear-gradient( 110.6deg,  rgba(179,157,219,1) 7%, rgba(150,159,222,1) 47.7%, rgba(24,255,255,1) 100.6% )",
+            "desc":"For the past 35 years, Mario has been running, jumping, and saving the Mushroom Kingdom from bad guys, and he couldn’t have done it without you. Thank you for always being there to help Mario on his incredible adventures.",
+            "link":"https://mario.nintendo.com/"
+        },
+        {
+            "img":"../images/monster04.png",
+            "title":"RUNNING MARIO",
+            "bg":"linear-gradient( 112.4deg,  rgba(169,28,115,1) 21.6%, rgba(219,112,54,1) 92.2% )",
+            "desc":"For the past 35 years, Mario has been running, jumping, and saving the Mushroom Kingdom from bad guys, and he couldn’t have done it without you. Thank you for always being there to help Mario on his incredible adventures.",
+            "link":"https://mario.nintendo.com/"
+        },
+        {
+            "img":"../images/monster05.png",
+            "title":"RACOON MARIO",
+            "bg":"radial-gradient( circle farthest-corner at -0.1% 100.8%,  rgba(0,234,255,1) 0.2%, rgba(0,124,255,1) 59.1%, rgba(198,0,255,1) 100.2% )",
+            "desc":"For the past 35 years, Mario has been running, jumping, and saving the Mushroom Kingdom from bad guys, and he couldn’t have done it without you. Thank you for always being there to help Mario on his incredible adventures.",
+            "link":"https://mario.nintendo.com/"
+        },
+        {
+            "img":"../images/monster06.png",
+            "title":"CART MARIO",
+            "bg":"linear-gradient( 110.4deg,  rgba(255,196,254,1) 9.6%, rgba(251,229,123,1) 91% )",
+            "desc":"For the past 35 years, Mario has been running, jumping, and saving the Mushroom Kingdom from bad guys, and he couldn’t have done it without you. Thank you for always being there to help Mario on his incredible adventures.",
+            "link":"https://mario.nintendo.com/"
+        },
+        {
+            "img":"../images/monster07.png",
+            "title":"CART MARIO",
+            "bg":"radial-gradient( circle farthest-corner at 10% 20%,  rgba(253,101,133,1) 0%, rgba(255,211,165,1) 90% )",
+            "desc":"For the past 35 years, Mario has been running, jumping, and saving the Mushroom Kingdom from bad guys, and he couldn’t have done it without you. Thank you for always being there to help Mario on his incredible adventures.",
+            "link":"https://mario.nintendo.com/"
+        }
+    ]
+}

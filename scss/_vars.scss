@@ -1,0 +1,64 @@
+$main-color:#bf0c14;
+$sub-color:#ec670e;
+$gray-color:#d9d9d9;
+$h2-size:48px;
+$h3-size:36px;
+$h4-size:20px;
+
+@mixin vCenter {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+@mixin hCenter {
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+@mixin bothCenter {
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+@mixin absCenter($pos:both) {
+    position: absolute;
+    @if $pos == h {
+        left:50%;
+        transform: translateX(-50%);
+    } @else if $pos==v {
+        top:50%;
+        transform: translateY(-50%);
+    } @else {
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+@mixin multiEllipsis($line-height:1.5,$line:2) {
+    display: -webkit-box;
+    height: $line-height * $line * 1em;
+    overflow: hidden;
+    line-height: $line-height;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp: $line;
+}
+
+@mixin longShadow( $bg-color:#000,$direction:right,$num:200) {
+    $shadow:"";
+    @if ($direction == right) {
+        @for $i from 1 to $num - 1 {
+            $shadow : $shadow + $i + "px " + $i + "px 0 " + $bg-color + ","
+        }
+        $shadow : $shadow + $num + "px " + $num + "px 0 " + $bg-color + ";";
+    } @else {
+        @for $i from 1 to $num - 1 {
+            $shadow : $shadow + $i * -1 + "px " + $i + "px 0 " + $bg-color + ","
+        }
+        $shadow : $shadow + $num * -1 + "px " + $num + "px 0 " + $bg-color + ";";
+    }
+    $shadow:unquote($shadow);
+    text-shadow: $shadow;
+}

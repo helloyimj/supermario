@@ -1,0 +1,60 @@
+html { font-size: 10px; }
+
+body { font-family: "Montserrat","Noto Sans KR"; font-size: 1.6rem; background-color: #111; }
+
+#header { position: fixed; z-index: 3; display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; padding-right: 50px; }
+
+#header #gnb .list { display: -webkit-box; display: -ms-flexbox; display: flex; height: 100px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+#header #gnb .list li { margin: 0 5px; font-weight: 500; cursor: pointer; color: #fff; background-color: #111; border-radius: 100px; overflow: hidden; color: #fff; padding: 20px 40px; font-size: 14px; }
+
+#header #gnb .list li.on { background-color: #c70101; text-shadow: 1px 1px 0 #940101,2px 2px 0 #940101,3px 3px 0 #940101,4px 4px 0 #940101,5px 5px 0 #940101,6px 6px 0 #940101,7px 7px 0 #940101,8px 8px 0 #940101,9px 9px 0 #940101,10px 10px 0 #940101,11px 11px 0 #940101,12px 12px 0 #940101,13px 13px 0 #940101,14px 14px 0 #940101,15px 15px 0 #940101,16px 16px 0 #940101,17px 17px 0 #940101,18px 18px 0 #940101,19px 19px 0 #940101,20px 20px 0 #940101,21px 21px 0 #940101,22px 22px 0 #940101,23px 23px 0 #940101,24px 24px 0 #940101,25px 25px 0 #940101,26px 26px 0 #940101,27px 27px 0 #940101,28px 28px 0 #940101,30px 30px 0 #940101;; }
+
+#header #logo { position: absolute; left: 50px; top: 20px; }
+
+#header #logo img { width: 200px; }
+
+#main { position: fixed; left: 0; top: 0; width: 100%; height: 100%; background: url("../images/bg02.jpg") no-repeat 50%; background-size: cover; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+#main .marioList { position: relative; height: 500px; margin-left: 0; }
+
+#main .marioList li { width: 1000px; height: 500px; }
+
+#main .marioList li .bg { width: 100%; height: 100%; background-color: #fff; border-radius: 40px; -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2); box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2); }
+
+#main .marioList li .mario { position: absolute; z-index: 5; left: -100px; -webkit-filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.2)); filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.2)); }
+
+#main .marioList li .mario img { height: 600px; }
+
+#main .marioList li .txt { position: absolute; width: 40%; left: 50%; top: 100px; color: #fff; line-height: 1.5; }
+
+#main .marioList li .txt .title { font-size: 32px; font-weight: 700; margin-bottom: 20px; }
+
+#main .marioList li .txt a { margin-top: 50px; display: block; width: 180px; height: 50px; line-height: 50px; background-color: #fff; color: #111; text-align: center; font-weight: 600; text-decoration: none; border-radius: 100px; overflow: hidden; text-shadow: 1px 1px 0 #e6e6e6,2px 2px 0 #e6e6e6,3px 3px 0 #e6e6e6,4px 4px 0 #e6e6e6,5px 5px 0 #e6e6e6,6px 6px 0 #e6e6e6,7px 7px 0 #e6e6e6,8px 8px 0 #e6e6e6,9px 9px 0 #e6e6e6,10px 10px 0 #e6e6e6,11px 11px 0 #e6e6e6,12px 12px 0 #e6e6e6,13px 13px 0 #e6e6e6,14px 14px 0 #e6e6e6,15px 15px 0 #e6e6e6,16px 16px 0 #e6e6e6,17px 17px 0 #e6e6e6,18px 18px 0 #e6e6e6,19px 19px 0 #e6e6e6,20px 20px 0 #e6e6e6,21px 21px 0 #e6e6e6,22px 22px 0 #e6e6e6,23px 23px 0 #e6e6e6,24px 24px 0 #e6e6e6,25px 25px 0 #e6e6e6,26px 26px 0 #e6e6e6,27px 27px 0 #e6e6e6,28px 28px 0 #e6e6e6,30px 30px 0 #e6e6e6;; }
+
+#menu { position: fixed; z-index: 3; left: 50px; color: #fff; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); font-size: 18px; font-weight: 500; }
+
+#menu ul li { margin: 20px 0; cursor: pointer; }
+
+#menu ul li span { display: inline-block; position: relative; padding-left: 15px; }
+
+#menu ul li.on span:before { width: calc(100% +  15px); }
+
+#menu ul li span:before { content: ''; display: block; width: 2px; height: 2px; border-radius: 100px; background-color: #f00; left: 0; top: 50%; margin-top: -1px; position: absolute; -webkit-transition: all 0.25s ease; transition: all 0.25s ease; }
+
+#footer { position: fixed; bottom: 30px; text-align: center; display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+#footer p { color: #fff; background-color: #004ec2; padding: 10px 50px; border-radius: 100px; font-size: 14px; font-weight: 500; overflow: hidden; text-shadow: 1px 1px 0 #00398f,2px 2px 0 #00398f,3px 3px 0 #00398f,4px 4px 0 #00398f,5px 5px 0 #00398f,6px 6px 0 #00398f,7px 7px 0 #00398f,8px 8px 0 #00398f,9px 9px 0 #00398f,10px 10px 0 #00398f,11px 11px 0 #00398f,12px 12px 0 #00398f,13px 13px 0 #00398f,14px 14px 0 #00398f,15px 15px 0 #00398f,16px 16px 0 #00398f,17px 17px 0 #00398f,18px 18px 0 #00398f,19px 19px 0 #00398f,20px 20px 0 #00398f,21px 21px 0 #00398f,22px 22px 0 #00398f,23px 23px 0 #00398f,24px 24px 0 #00398f,25px 25px 0 #00398f,26px 26px 0 #00398f,27px 27px 0 #00398f,28px 28px 0 #00398f,30px 30px 0 #00398f;; }
+
+.pagination { position: fixed; width: 100%; bottom: 120px; text-align: center; }
+
+.pagination .swiper-pagination-bullet { width: 20px; height: 20px; opacity: 1; background: none; border: 4px solid #fff; border-radius: 100px; margin: 0 2px; -webkit-transition: all 0.25s ease; transition: all 0.25s ease; outline: none; }
+
+.pagination .swiper-pagination-bullet-active { width: 80px; background-color: #fff; }
+
+@-webkit-keyframes moveMario { 0% { -webkit-transform: translateY(0); transform: translateY(0); }
+  100% { -webkit-transform: translateY(100px); transform: translateY(100px); } }
+
+@keyframes moveMario { 0% { -webkit-transform: translateY(0); transform: translateY(0); }
+  100% { -webkit-transform: translateY(100px); transform: translateY(100px); } }
+/*# sourceMappingURL=layout02.css.map */
